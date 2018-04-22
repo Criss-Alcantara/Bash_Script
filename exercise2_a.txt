@@ -1,5 +1,0 @@
-tr -c [:alnum:] [\\n\*] < $1: Convierte todos los datos no alfanumericos en un salto de linea y lo dirige al fichero introducido en el aprametro $1
-sort: lee de la entrada estandar
-uniq -c: Filtras las lineas de coincidencia adyancente de INPUT(entrada estandar), filtrando lineas por numero de ocurrencias y las escribe en OUTPUT(salida estandar)
-sort -nr: comparar según el valor numérico de la cadena y revierte el resultado de las comparaciones
-head: Imprima las primeras 10 líneas de cada ARCHIVO a la salida estándar.
